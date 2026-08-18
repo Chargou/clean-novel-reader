@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Clean Novel Reader
 // @namespace    https://github.com/Chargou/clean-novel-reader
-// @version      1.0.1
+// @version      1.0.2
 // @description  Clean, consistent reading UI across supported novel websites.
 // @match        https://novelphoenix.com/novel/*/*
 // @match        https://novelfire.net/book/*/*
@@ -28,7 +28,7 @@
             "topUI": [
                 "header.main-header",
                 "#chapter-article .titles",
-                "#chapter-article .chapternav"
+                "#chapter-article .chapternav:not(#chapter-container .chapternav)"
             ],
             "comments": [
                 "#chapter-comments"
@@ -46,7 +46,7 @@
             "topUI": [
                 "header.main-header",
                 "#chapter-article .titles",
-                "#chapter-article .chapternav",
+                "#chapter-article .chapternav:not(#chapter-container .chapternav)",
                 ".navbar-breadcrumb"
             ],
             "comments": [
