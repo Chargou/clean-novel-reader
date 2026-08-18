@@ -1,11 +1,12 @@
 {
-  "https://novelphoenix.com": {
+  "https://novelphoenix.com/novel/*": {
     "name": "NovelPhoenix",
     "alwaysHidden": [
       ".nf-ads",
       ".box-notification",
       ".box-notice",
-      ".report-container"
+      ".report-container",
+      "footer"
     ],
     "topUI": [
       "header.main-header",
@@ -16,13 +17,15 @@
       "#chapter-comments"
     ]
   },
-  "https://novelfire.net": {
+  "https://novelfire.net/book/*": {
     "name": "NovelFire",
     "alwaysHidden": [
       ".nf-ads",
       ".box-notice",
       ".report-container",
-      "#chapter-container > div:has(iframe)"
+      "#chapter-container > div:has(iframe)",
+      "footer",
+      ".navbar-breadcrumb"
     ],
     "topUI": [
       "header.main-header",

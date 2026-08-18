@@ -61,7 +61,8 @@ function incrementPatch(version) {
 
 function matchFor(siteURL) {
     const url = new URL(siteURL);
-    return `${url.protocol}//${url.host}/*`;
+    const pathname = url.pathname.replace(/\/+$/, '');
+    return pathname ? `${url.protocol}//${url.host}${pathname}/*` : `${url.protocol}//${url.host}/*`;
 }
 
 function repositoryURL() {
