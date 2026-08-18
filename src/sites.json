@@ -1,0 +1,19 @@
+{
+  "https://novelphoenix.com": {
+    "name": "NovelPhoenix",
+    "alwaysHidden": [
+      ".nf-ads",
+      ".box-notification",
+      ".box-notice",
+      ".report-container"
+    ],
+    "topUI": [
+      "header.main-header",
+      "#chapter-article .titles",
+      "#chapter-article .chapternav"
+    ],
+    "comments": [
+      "#chapter-comments"
+    ]
+  }
+}
