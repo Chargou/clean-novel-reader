@@ -24,7 +24,7 @@
       ".box-notice",
       ".report-container",
       "#chapter-container > div:has(iframe)",
-      "footer",
+      "footer"
     ],
     "topUI": [
       "header.main-header",
