@@ -11,7 +11,7 @@
     "topUI": [
       "header.main-header",
       "#chapter-article .titles",
-      "#chapter-article .chapternav"
+      "#chapter-article .chapternav:not(.py-3)"
     ],
     "comments": [
       "#chapter-comments"
@@ -29,7 +29,7 @@
     "topUI": [
       "header.main-header",
       "#chapter-article .titles",
-      "#chapter-article .chapternav",
+      "#chapter-article .chapternav:not(.py-3)",
       ".navbar-breadcrumb"
     ],
     "comments": [
