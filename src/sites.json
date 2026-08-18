@@ -15,5 +15,22 @@
     "comments": [
       "#chapter-comments"
     ]
+  },
+  "https://novelfire.net": {
+    "name": "NovelFire",
+    "alwaysHidden": [
+      ".nf-ads",
+      ".box-notice",
+      ".report-container",
+      "#chapter-container > div:has(iframe)"
+    ],
+    "topUI": [
+      "header.main-header",
+      "#chapter-article .titles",
+      "#chapter-article .chapternav"
+    ],
+    "comments": [
+      "#chapter-comments"
+    ]
   }
 }
