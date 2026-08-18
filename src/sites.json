@@ -25,12 +25,12 @@
       ".report-container",
       "#chapter-container > div:has(iframe)",
       "footer",
-      ".navbar-breadcrumb"
     ],
     "topUI": [
       "header.main-header",
       "#chapter-article .titles",
-      "#chapter-article .chapternav"
+      "#chapter-article .chapternav",
+      ".navbar-breadcrumb"
     ],
     "comments": [
       "#chapter-comments"
